@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>muffin</groupId>
+  <artifactId>muffin</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>MUFFIN - Manage Unified Flow In Network</name>
+  <modules>
+  	<module>muffin-product</module>
+  	<module>muffin-documentation</module>
+  	<module>muffin-distribution</module>
+  </modules>
+</project>

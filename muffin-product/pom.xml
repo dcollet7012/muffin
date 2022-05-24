@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>muffin</groupId>
+		<artifactId>muffin</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>muffin-product</groupId>
+	<artifactId>muffin-product</artifactId>
+	<packaging>pom</packaging>
+	<name>MUFFIN - Product</name>
+
+	<properties>
+		<!-- UTF-8 Everywhere -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<!-- Use Java 11 -->
+		<java.version>11</java.version>
+
+		<!-- Use spring boot dependencies -->
+		<spring-boot.version>2.7.0</spring-boot.version>
+
+		<!-- Logging/Tracing/Metrology -->
+		<sentry.version>5.7.4</sentry.version>
+		<micrometer.version>1.9.0</micrometer.version>
+		<opentracing.version>0.33.0</opentracing.version>
+
+		<!-- Persistance -->
+		<querydsl.version>4.4.0</querydsl.version>
+
+		<!-- Misc -->
+		<spotbugs-annotations.version>4.7.0</spotbugs-annotations.version>
+
+		<!-- Test -->
+		<pojo-tester.version>0.7.6</pojo-tester.version>
+        <mockserver.version>5.13.2</mockserver.version>
+        
+
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- Spring -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Logging/Tracing/Metrology -->
+			<dependency>
+				<groupId>io.micrometer</groupId>
+				<artifactId>micrometer-registry-prometheus</artifactId>
+				<version>${micrometer.version}</version>
+				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+				<groupId>io.sentry</groupId>
+				<artifactId>sentry-spring-boot-starter</artifactId>
+				<version>${sentry.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.opentracing.contrib</groupId>
+				<artifactId>opentracing-spring-jaeger-web-starter</artifactId>
+				<version>${opentracing.version}</version>
+			</dependency>
+
+			<!-- Persistence -->
+			<dependency>
+				<groupId>com.querydsl</groupId>
+				<artifactId>querydsl-jpa</artifactId>
+				<version>${querydsl.version}</version>
+				<classifier>jpa</classifier>
+			</dependency>
+
+			<!-- Misc -->
+			<dependency>
+				<groupId>com.github.spotbugs</groupId>
+				<artifactId>spotbugs-annotations</artifactId>
+				<version>${spotbugs-annotations.version}</version>
+			</dependency>
+
+            <!-- Test -->
+			<dependency>
+				<groupId>pl.pojo</groupId>
+				<artifactId>pojo-tester</artifactId>
+				<version>${pojo-tester.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.mock-server</groupId>
+				<artifactId>mockserver-netty</artifactId>
+				<version>${mockserver.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mock-server</groupId>
+				<artifactId>mockserver-client-java</artifactId>
+				<version>${mockserver.version}</version>
+			</dependency>
+
+
+		</dependencies>
+	</dependencyManagement>
+</project>
