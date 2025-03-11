@@ -13,11 +13,4 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <modules>
-  	<module>muffin-platform</module>
-  	<module>muffin-quality</module>
-  	<module>muffin-parent</module>
-  	<module>muffin-product</module>
-  	<module>muffin-documentation</module>
-  </modules>
 </project>
