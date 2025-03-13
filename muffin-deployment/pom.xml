@@ -5,14 +5,7 @@
     <artifactId>muffin</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-product</artifactId>
+  <artifactId>muffin-deployment</artifactId>
+  <name>MUFFIN : Outil Installation Déploiement</name>
   <packaging>pom</packaging>
-  <name>MUFFIN : Produit</name>
-  <modules>
-    <module>muffin-product-connector</module>
-  	<module>muffin-product-backend</module>
-  	<module>muffin-product-service</module>
-  	<module>muffin-product-batch</module>
-  	<module>muffin-product-frontend</module>
-  </modules>
 </project>

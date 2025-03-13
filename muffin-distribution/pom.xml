@@ -5,14 +5,15 @@
     <artifactId>muffin</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-product</artifactId>
+  <artifactId>muffin-distribution</artifactId>
   <packaging>pom</packaging>
-  <name>MUFFIN : Produit</name>
+  <name>MUFFIN : Distribution</name>
   <modules>
-    <module>muffin-product-connector</module>
-  	<module>muffin-product-backend</module>
-  	<module>muffin-product-service</module>
-  	<module>muffin-product-batch</module>
-  	<module>muffin-product-frontend</module>
+  	<module>muffin-distribution-observability</module>
+  	<module>muffin-distribution-backend</module>
+  	<module>muffin-distribution-services</module>
+  	<module>muffin-distribution-batch</module>
+  	<module>muffin-distribution-frontal-admin</module>
+  	<module>muffin-distribution-user-console</module>
   </modules>
 </project>

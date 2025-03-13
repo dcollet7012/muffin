@@ -2,10 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dco</groupId>
-    <artifactId>muffin-platform</artifactId>
+    <artifactId>muffin-fundation-security-iam</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-platform-build</artifactId>
-  <name>MUFFIN-PLT-BLD : Build platform</name>
-  <packaging>pom</packaging>
+  <artifactId>muffin-fundation-security-iam-client</artifactId>
+  <name>MUFFIN : Authentification/Autorisation Client</name>
 </project>

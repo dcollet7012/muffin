@@ -2,10 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dco</groupId>
-    <artifactId>muffin</artifactId>
+    <artifactId>muffin-product-service</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-parent</artifactId>
-  <packaging>pom</packaging>
-  <name>MUFFIN : Parent</name>
+  <artifactId>muffin-product-service-ftp</artifactId>
+  <name>MUFFIN : Service FTP</name>
 </project>

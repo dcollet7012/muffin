@@ -2,17 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dco</groupId>
-    <artifactId>muffin</artifactId>
+    <artifactId>muffin-distribution</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-product</artifactId>
+  <artifactId>muffin-distribution-observability</artifactId>
   <packaging>pom</packaging>
-  <name>MUFFIN : Produit</name>
-  <modules>
-    <module>muffin-product-connector</module>
-  	<module>muffin-product-backend</module>
-  	<module>muffin-product-service</module>
-  	<module>muffin-product-batch</module>
-  	<module>muffin-product-frontend</module>
-  </modules>
+  <name>MUFFIN : Distribution Observabilité</name>
 </project>

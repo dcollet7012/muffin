@@ -2,17 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dco</groupId>
-    <artifactId>muffin</artifactId>
+    <artifactId>muffin-product</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-product</artifactId>
+  <artifactId>muffin-product-frontend</artifactId>
   <packaging>pom</packaging>
-  <name>MUFFIN : Produit</name>
+  <name>MUFFIN : Frontal</name>
   <modules>
-    <module>muffin-product-connector</module>
-  	<module>muffin-product-backend</module>
-  	<module>muffin-product-service</module>
-  	<module>muffin-product-batch</module>
-  	<module>muffin-product-frontend</module>
+  	<module>muffin-product-frontend-admin-console</module>
+  	<module>muffin-product-frontend-user-console</module>
   </modules>
 </project>

@@ -5,14 +5,13 @@
     <artifactId>muffin</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-product</artifactId>
+  <artifactId>muffin-fundation</artifactId>
   <packaging>pom</packaging>
-  <name>MUFFIN : Produit</name>
+  <name>MUFFIN : Fondation</name>
   <modules>
-    <module>muffin-product-connector</module>
-  	<module>muffin-product-backend</module>
-  	<module>muffin-product-service</module>
-  	<module>muffin-product-batch</module>
-  	<module>muffin-product-frontend</module>
+  	<module>muffin-fundation-core</module>
+  	<module>muffin-fundation-persistence</module>
+  	<module>muffin-fundation-security</module>
+  	<module>muffin-fundation-central-configuration</module>
   </modules>
 </project>

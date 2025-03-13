@@ -2,10 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dco</groupId>
-    <artifactId>muffin</artifactId>
+    <artifactId>muffin-product-batch</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-parent</artifactId>
-  <packaging>pom</packaging>
-  <name>MUFFIN : Parent</name>
+  <artifactId>muffin-product-batch-processing</artifactId>
+  <name>MUFFIN : Exécution Projet</name>
 </project>

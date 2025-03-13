@@ -2,14 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dco</groupId>
-    <artifactId>muffin</artifactId>
+    <artifactId>muffin-product-service</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-platform</artifactId>
-  <name>MUFFIN-PLT   : Platform for build and run</name>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>muffin-platform-build</module>
-  	<module>muffin-platform-run</module>
-  </modules>
+  <artifactId>muffin-product-service-mstream</artifactId>
+  <name>MUFFIN : Service Messagerie Flux</name>
 </project>

@@ -6,5 +6,5 @@
     <version>1.0.0-FINAL</version>
   </parent>
   <artifactId>muffin-quality</artifactId>
-  <name>MUFFIN-QA    : Quality</name>
+  <name>MUFFIN - Qualité</name>
 </project>

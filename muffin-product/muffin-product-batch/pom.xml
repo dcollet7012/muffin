@@ -2,17 +2,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dco</groupId>
-    <artifactId>muffin</artifactId>
+    <artifactId>muffin-product</artifactId>
     <version>1.0.0-FINAL</version>
   </parent>
-  <artifactId>muffin-product</artifactId>
+  <artifactId>muffin-product-batch</artifactId>
   <packaging>pom</packaging>
-  <name>MUFFIN : Produit</name>
+  <name>MUFFIN : Traitement Tache de Fond</name>
   <modules>
-    <module>muffin-product-connector</module>
-  	<module>muffin-product-backend</module>
-  	<module>muffin-product-service</module>
-  	<module>muffin-product-batch</module>
-  	<module>muffin-product-frontend</module>
+    <module>muffin-product-batch-common</module>
+  	<module>muffin-product-batch-processing</module>
+  	<module>muffin-product-batch-reporting</module>
   </modules>
 </project>
