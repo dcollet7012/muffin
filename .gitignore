@@ -6,5 +6,3 @@ bin/
 .classpath
 .factorypath
 .vscode
-.\.ssh/
-.\.monitoring/

@@ -1,0 +1,2 @@
+first-name.required=Prénom requis
+age.to-young={{validatedValue}} ans n'est pas un age légal, {{min}} ans minimum requis
