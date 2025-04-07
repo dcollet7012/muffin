@@ -1,0 +1,28 @@
+muffin:
+  core:
+    localization:
+      basenames:
+      - classpath:i18n/messages
+      - classpath:i18n/exceptions
+      - classpath:i18n/exceptions-core
+      - classpath:exceptions-test
+      - classpath:i18n/validations
+      - classpath:i18n/emergencies
+      - classpath:i18n/site
+      - classpath:validations-test
+      cache-millis: 100
+      common-messages:
+        common: Commun
+      default-encoding: UTF-8
+      default-locale: en
+      fallback-to-system: true
+      fallback-to-default: true
+      file-extensions:
+      - .properties
+      - .props
+      use-code-as-message: true
+      
+      
+      
+      
+  

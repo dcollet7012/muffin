@@ -1,0 +1,14 @@
+ARGIS-PRD;eth-1-vma-prdapp-22.mel.axione.fr:22:;KO
+CHABLIS-PPR;eth-1-vma-pprdck-37.pau.axione.fr:22:;KO
+CHARLIE-PPR;eth-1-vma-pprdck-06.pau.axione.fr:22:;KO
+DATA-FUSION-PPR;vm-datafusion-qa-pau-01.infra.axione.fr:22:;KO
+GCBLO-PPR;eth-1-vma-pprdck-06.pau.axione.fr:22:;KO
+GROOT-QA;vm-groot-qa-pau-01.node.pau-ppr.consul:4 367:;KO
+IOT-QA;vm-iot-qa-pau-01.infra.axione.fr:22:;KO
+IOT-STAGING;vm-iot-staging-pau-01.infra.axione.fr:22:;KO
+ISF-PRD;eth-1-vma-prddck-116.pau.axione.fr:22:;KO
+MISTERIA-CRI-PROD;vm-misteria-cri-prod-pau-01.infra.axione.fr:4 367:;KO
+MISTERIA-CRI-QA;vm-misteria-cri-qa-rbx-01.infra.axione.fr:4 367:;KO
+NAS_TANGRAM;nas-tan92-01.int.axione.fr:22:;KO
+RAPPRO-PRD;vm-rappro-prod-pau-01.node.pau.consul:4 367:;KO
+SACT_QA;vm-sact-staging-pau-01.infra.axione.fr:4 368:;KO
